@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+/* Global Styles */
+body, html {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar Styles */
+.nav-container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    gap: 80px;
+}
+
+.navbar li .link {
+    position: relative;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 0.5px;
+}
+
+.navbar li .link::after {
+    content: "";
+    position: absolute;
+    background-color: pink;
+    height: 3px;
+    width: 0;
+    left: 0;
+    top: 100%;
+    transition: width 0.4s;
+}
+
+.navbar li .link:hover::after {
+    width: 100%;
+}
+
+/* Title Styles */
+.main-title a {
+    font-family: 'Pacifico', 'cursive';
+    color: black;
+}
+
+/* Logo Styles */
+.main-logo {
+    display: flex;
+    align-items: center;
+}
+
+header .gradient {
+    background-color: pink;
+    width: 100%;
+}
+
+.gradient p {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Pacifico', 'cursive';
+}
+
+.main-image {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.main-logo img{
+    width: 100px;
+}
+
+/* start of the third section */
+.third-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Pacifico', 'cursive';
+    font-size: 20px;
+} 
+
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 220px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+/* end of the third section */
+
+/* start  of the why us section */
+
+.whyus div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 100px;
+} 
+
+.whyus img {
+    width: 600px;
+    height: 350px;
+}
+
+.about {
+    width: 400px;
+}
+
+.about-title {
+    text-align: center;
+    font-family: 'Pacifico', 'cursive';
+    font-size: 30px;
+}
+/* end  of the why us section */
+
+/* start of the footer section */
+footer {
+    margin-top: 150px;
+    background-color: pink;
+    padding: 70px;
+}
+
+.facebook-logo {
+    width: 60px;
+}
+
+.taplink-logo {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.logos {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 15px;
+}
+
+.wrapper h1 {
+    font-family: 'Pacifico', 'cursive';
+}
+/* end of the footer section */
+
+/* .products */
+.all-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 180px;
+    margin-top: 50px;
+    font-family: 'Pacifico', 'cursive';
+}
+/* end of products */
+
+/* start of the contact */
+.wrapper2 {
+    display: flex;
+}
+
+.wrapper3 p {
+    width: 350px;
+    background-color: rgb(245, 233, 235);
+    padding: 40px;
+    margin: -130px 200px;
+}
+
+.wrapper4 {
+    margin-left: 350px;
+    margin-top: 20px;
+}
+
+.wrapper4 h1 {
+    font-family: 'Pacifico', 'cursive';
+}
+
+/* end of the contact */
